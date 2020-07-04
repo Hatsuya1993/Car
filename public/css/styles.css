@@ -3,7 +3,7 @@
     background: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-position: center;
     transition: all 0.5s linear;
-    animation: zoominoutsinglefeatured 2s infinite;
+    animation: zoominoutsinglefeatured 3s infinite;
     background-size: cover;
     background-repeat: no-repeat;
 }
