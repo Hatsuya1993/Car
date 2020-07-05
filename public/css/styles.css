@@ -25,3 +25,26 @@
         transform: scale(1, 1);
     }
 }
+
+/* Start car-dealer */
+
+.car-dealer {
+    color: white;
+    background-color: #007bff;
+    width: 300px;
+    height: 60px;
+    transform: skew(-20deg);
+
+}
+
+/* End car-dealer */
+
+/* Start underline */
+
+.underline {
+    border-bottom: 10px solid black;
+    width: 100px;
+    margin: 0 auto;
+}
+
+/* End underline */
