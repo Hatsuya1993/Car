@@ -1,40 +1,39 @@
 .banner-content {
-    height: 90vh;
-    background: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-position: center;
-    transition: all 0.5s linear;
-    animation: zoominoutsinglefeatured 3s infinite;
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 90vh;
+  background: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  transition: all 0.5s linear;
+  animation: zoominoutsinglefeatured 3s infinite;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-main {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 @keyframes zoominoutsinglefeatured {
-    0% {
-        transform: scale(1, 1);
-    }
+  0% {
+    transform: scale(1, 1);
+  }
 
-    50% {
-        transform: scale(1.1, 1.1);
-    }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
 
-    100% {
-        transform: scale(1, 1);
-    }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 
 /* Start car-dealer */
 
 .car-dealer {
-    color: white;
-    background-color: #007bff;
-    width: 300px;
-    height: 60px;
-    transform: skew(-20deg);
-
+  color: white;
+  background-color: #007bff;
+  width: 300px;
+  height: 60px;
+  transform: skew(-20deg);
 }
 
 /* End car-dealer */
@@ -42,9 +41,26 @@
 /* Start underline */
 
 .underline {
-    border-bottom: 10px solid black;
-    width: 100px;
-    margin: 0 auto;
+  border-bottom: 10px solid black;
+  width: 100px;
+  margin: 0 auto;
 }
 
 /* End underline */
+
+/* Start cost */
+
+.cost {
+  border-bottom: 50px solid #007bff;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 125px;
+  color: white;
+}
+
+/* End cost */
+
+.size {
+  height: 250px;
+}
