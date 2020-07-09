@@ -72,13 +72,12 @@
 /* Start question-main */
 
 .question-main {
-  background: url("https://images.pexels.com/photos/2127039/pexels-photo-2127039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   height: 60vh;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  opacity: 0.8;
 }
 
 /* End question-main */
@@ -110,3 +109,29 @@
 }
 
 /* End question2-2 */
+
+/* Start contact-img */
+
+.contact-img {
+  background: url("https://images.pexels.com/photos/2127039/pexels-photo-2127039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* End contact-img */
+
+/* Start input-type */
+
+.input-type {
+  border: 1px solid #ffc107;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.input-type::placeholder {
+  color: #ffc107;
+}
+
+/* End input-type */
