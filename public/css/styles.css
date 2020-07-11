@@ -135,3 +135,39 @@
 }
 
 /* End input-type */
+
+/* Start back-main */
+
+.back-main {
+  position: relative;
+
+}
+
+/* End back-main */
+
+/* Start background */
+
+.background {
+  transform: skew(5deg);
+  background-color: skyblue;
+  opacity: 0.5;
+  width: 100%;
+  min-height: 85vh;
+  max-width: 95vw;
+  object-fit: cover;
+}
+
+/* End background */
+
+/* Start video */
+
+.video {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  height: 100vh;
+}
+
+/* End video */
