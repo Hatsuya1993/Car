@@ -140,7 +140,6 @@
 
 .back-main {
   position: relative;
-
 }
 
 /* End back-main */
@@ -171,3 +170,31 @@
 }
 
 /* End video */
+
+/* Start img-size */
+
+.img-size {
+  height: 200px;
+}
+
+/* End img-size */
+
+/* Start card */
+
+.card {
+  position: relative;
+}
+
+/* End card */
+
+/* Start img-prof */
+
+.img-prof {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%);
+  border: 3px solid white;
+}
+
+/* End img-prof */
